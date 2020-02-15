@@ -1,0 +1,86 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+
+.video {
+    width: 100%;
+    height: 100%;
+    background-image:url("https://i.ytimg.com/vi/y_70M2GC3jw/maxresdefault.jpg");
+    background-size: cover;
+    background-position: center;
+
+
+}
+    
+.popup {
+    width:100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    width: 450px;
+    height: 200px;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px black;
+
+
+}
+
+
+.container h4{
+
+    font-family: 'Nunito', sans-serif;
+    color: grey;
+
+}
+
+.conteiner form {
+
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+.container select{
+
+    background-color:white;
+    padding:10px;
+    border:1px solid rgb(204, 204, 204);
+    margin-right: 10px;
+
+
+
+}
+
+.container button{
+
+width: 100px;
+color: white;
+background-color: green;
+border-radius: 50px;
+padding: 10px;
+cursor: pointer;
+
+
+}
