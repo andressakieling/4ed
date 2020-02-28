@@ -35,7 +35,7 @@
         
     .menu {
         width: 64%;
-        font-family: 'Quicksand';
+        font-family: 'Lato';
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -60,7 +60,7 @@
 
             .menu-interno {
                 width: 100%;
-                font-family: 'Quicksand';
+                font-family: 'Lato';
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -99,32 +99,41 @@
 
 }
 
+
     h2{
 
-    font-family: 'Quicksand';
+    margin: 15px auto;
+    font-family: 'Lato';
     color: #47276F;
     font-weight: 900;
 }
      p{
 
-    font-family: 'Quicksand';
+    margin: 15px auto;
+    font-family: 'Lato';
     color:grey;
 }
 
 .container-conteudo a{
     text-decoration: none;
     color: #47276F;
-
+    font-family: 'Lato';
+    display: block;
+    width: 150px;
+    text-align: center;
 
 }
+
 #cta-matricula {
+
+    margin-top: 30px;
     color: white;
     padding: 16px;
     background-color: #93BF1D;
 }
 
 
-.texto {
+.texto-infos {
 
     width: 30%;
 
@@ -133,12 +142,104 @@
 .imagem {
 
     width: 70%;
+    overflow: hidden;
+    padding-left: 80px;
+    
   
 }
 
 .imagem img {
-    height: 100%;
-    padding-left: 100px;
-    overflow: hidden;
+    width: 100%;;
+    
     
 }
+
+
+        .especialistas {
+            width: 100%;
+            display: flex;
+            
+         }
+
+            .container-especialistas{
+
+                width: 1000px;
+                margin: 0 auto;
+                display: flex;
+                
+                
+            /* conteiner geral */
+
+            margin-top: 90px;
+            margin-bottom: 90px;
+
+            }
+               
+                .container-img-especialistas{
+
+                    display: flex;
+                    width: 60%;
+                    position: relative;
+                    
+                    /*overflow: hidden; */
+                     
+
+                    /*conteiner daimagem */
+                }       
+                .imagem-especialistas{
+                    /*imagem */
+                    overflow: hidden;
+                }
+
+                .boxtexto {
+
+                    width: 255px;
+                    background-color: white;
+                    padding: 25px;
+                    position: absolute;
+                    right: -55px;
+                    top: 50%;
+                    transform: translatey(-50%);
+                    /*texto box padding */
+
+                }
+                .boxtexto p{
+                    
+                    font-family: 'Lato';
+
+                
+
+                }
+            .texto-especialistas{
+
+                width: 40%;
+                padding-left: 80px;
+                display: flex;
+                align-items: center;
+                
+            }
+
+.sistema-ensino{
+
+    /* sessão ph */
+
+}
+    .container-ph{
+
+       /* sessão ph */
+    }
+        .texto-ph{
+
+            /* TEXTO */
+        }
+        .texto-ph h2{
+
+            /* PERSONALIZAR H2 */
+        }
+        .texto-ph p{
+
+            /* PERSONALIZAR P */
+        }
+        .imagem-ph{
+
+        }
