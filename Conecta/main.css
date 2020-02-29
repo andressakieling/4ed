@@ -4,6 +4,7 @@
     border: 0;
 }
 
+   
     header{
         width: 100%;
         height: 440px;
@@ -93,7 +94,7 @@
 
 .container-conteudo {
 
-    width: 1000px;
+    width: 800px;
     margin: 0 auto;
     display: flex;
 
@@ -102,16 +103,18 @@
 
     h2{
 
-    margin: 15px auto;
+    margin: 11px auto;
     font-family: 'Lato';
     color: #47276F;
     font-weight: 900;
+    font-size: 15px;
 }
      p{
 
-    margin: 15px auto;
+    margin: 0px auto;
     font-family: 'Lato';
     color:grey;
+    font-size:12px;
 }
 
 .container-conteudo a{
@@ -130,6 +133,7 @@
     color: white;
     padding: 16px;
     background-color: #93BF1D;
+    font-size: 12px;
 }
 
 
@@ -163,7 +167,7 @@
 
             .container-especialistas{
 
-                width: 1000px;
+                width: 800px;
                 margin: 0 auto;
                 display: flex;
                 
@@ -188,6 +192,7 @@
                 }       
                 .imagem-especialistas{
                     /*imagem */
+                    height: 350px;
                     overflow: hidden;
                 }
 
@@ -221,25 +226,358 @@
 
 .sistema-ensino{
 
+    width: 100%;
+    display: flex;
+    background-color: #47276F;
+    padding-top: 90px;
+    padding-bottom: 90px;;
+    flex-direction: column;
+    
     /* sessão ph */
 
 }
     .container-ph{
 
-       /* sessão ph */
+       /* container de informações 01 */
+        width: 800px;
+        height: 450px;
+        margin: 0 auto;
+        display: flex;
+        position: relative;
     }
         .texto-ph{
 
-            /* TEXTO */
+            /* TEXTO
+            position: absolute;
+            right: -55px;
+            top: 50%;
+            transform: translatey(-50%); */
+            width: 400px;
+            
+            
+                    
         }
         .texto-ph h2{
 
+            margin-bottom: 25px;
+            font-family: 'Lato';
+            color: white;
+            font-weight: 900;
             /* PERSONALIZAR H2 */
         }
         .texto-ph p{
 
+            font-family: 'Lato';
+            color: white;
+          
             /* PERSONALIZAR P */
         }
         .imagem-ph{
 
+/* PERSONALIZAR  position: relative P */
+            display: flex;
+            position: absolute;
+            right: 0;
+            
+
         }
+        .imagem-ph img{
+            width: 500px;
+        }
+
+             #beneficios{
+                font-family: Lato;
+                color: white;
+                
+
+             }
+
+
+                .container-beneficios{
+                    
+                    width: 800px;
+                    margin: 0 auto;
+                    margin-top: 30px;
+                    /* container dos box de beneficios */
+
+                }
+
+                .acompanhamento-pedagogico{
+                    width: 100%;
+                    height: 400px;
+                    box-sizing: border-box;
+                    text-align:center;
+                    border: solid 1px white;
+                    border-radius: 20px;
+                    padding: 0px 30px 0px 30px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    
+                    /* box acompanhamento pedagogico */
+                }
+                .acompanhamento-pedagogico h2{
+                font-family: 'Lato';
+                color: white;
+                font-weight: 900;   
+                font-size: 16px;       
+                }
+                .acompanhamento-pedagogico p{
+                font-family: 'Lato';
+                color: white;
+                font-size: 12px;
+                }
+                .acompanhamento-pedagogico a{
+                    text-decoration: none;
+                    font-family: 'Lato';
+                    color: white;
+                    margin-top: 15px;
+                    font-size: 12px;
+                    }
+
+                .acompanhamento-pedagogico img{
+                    width: 50px !important;
+                     }
+
+
+                .plano-de-estudo{
+                    width: 100%%;
+                    height: 400px;
+                    box-sizing: border-box;
+                    text-align:center;
+                    border: solid 1px white;
+                    border-radius: 20px;
+                    padding: 0px 30px 0px 30px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .plano-de-estudo img{
+                    width: 50px !important;
+                     }
+                .plano-de-estudo h2{
+                   
+                font-family: 'Lato';
+                color: white;
+                font-weight: 900; 
+                font-size: 16px;                    
+                }
+
+                .plano-de-estudo p{
+                font-family: 'Lato';
+                color: white;
+                font-size: 12px;
+                }
+               
+                .plano-de-estudo a{
+    
+                font-family: 'Lato';
+                color: white;
+                text-decoration: none;
+                margin: 15px;
+                font-size: 12px;
+                }
+                
+                .acompanhe-seu-desempenho{
+                    width: 100%;
+                    height: 400px;
+                    box-sizing: border-box;
+                    text-align:center;
+                    border: solid 1px white;
+                    border-radius: 20px;
+                    padding: 0px 30px 0px 30px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .acompanhe-seu-desempenho img{
+                    width: 50px !important;
+                     }
+
+                .acompanhe-seu-desempenho h2{
+                font-family: 'Lato';
+                color: white;
+                font-weight: 900;
+                font-size: 16px;   
+                }
+                .acompanhe-seu-desempenho p{
+                font-family: 'Lato';
+                 color: white;
+                 font-size: 12px;
+                }
+                .acompanhe-seu-desempenho a{
+    
+                font-family: 'Lato';
+                color: white;
+                text-decoration: none;
+                margin: 15px;
+                font-size: 12px;
+                }
+               
+                .plantao-online{                    
+                    width: 100%;
+                    height: 400px;
+                    box-sizing: border-box;
+                    text-align:center;
+                    border: solid 1px white;
+                    border-radius: 20px;
+                    padding: 0px 30px 0px 30px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .plantao-online img{
+                    width: 50px !important;
+                }
+
+                .plantao-online h2{
+                font-family: 'Lato';
+                color: white;
+                font-weight: 900;
+                font-size: 16px;   
+                      
+                }
+                .plantao-online p{
+    
+                font-family: 'Lato';
+                color: white;
+                font-size: 10px;
+                }
+                .plantao-online a{
+    
+                font-family: 'Lato';
+                color: white;
+                text-decoration: none;
+                margin: 15px;
+                font-size: 12px;
+                }
+
+                .simulados{
+                    width: 100%;
+                    height: 400px;
+                    box-sizing: border-box;
+                    text-align:center;
+                    border: solid 1px white;
+                    border-radius: 20px;
+                    padding: 0px 30px 0px 30px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    
+                }
+
+                .simulados img{
+                    width: 50px !important;
+                }
+
+                .simulados h2{
+                font-family: 'Lato';
+                color: white;
+                font-weight: 900;
+                font-size: 16px;   
+                      
+                }
+                .simulados p{
+    
+                font-family: 'Lato';
+                color: white;
+                font-size: 12px;
+                }
+                .simulados a{
+    
+                font-family: 'Lato';
+                color: white;
+                text-decoration: none;
+                margin: 15px;
+                font-size: 12px;
+                }
+                      
+                .owl-nav{
+                    display: none;
+                }
+
+                .owl-dots{
+
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 10px;
+
+
+                }
+
+                .owl-carousel button.owl-dot{
+
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50%;
+                    border: solid 1px white;
+                    margin: 5px;
+
+
+                }
+                .owl-dot.active{
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50%;
+                    background-color: white !important;
+                    margin: 5px;
+                 }
+
+
+
+
+                 @media (max-width: 480px) {
+
+                    .header-container {
+                        width: 90%px;
+                        justify-content: center;
+                     }
+                    .header-logo menu{
+                        display: none;
+                    }
+                    .header-logo img {
+
+                    }
+
+                    .menu-infos {
+                        display: flex;
+                        flex-direction: column;
+                    }
+
+                    .infos-gerais{
+
+                        width: 80%;
+                        margin: 0 auto;
+
+                    }
+
+                    .container-conteudo{
+
+                        width: 90%;
+                        margin: 0 auto;
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    .texto-infos {
+                        width: 100%;
+                        text-align: center;
+
+                    }
+
+                    #cta-matricula {
+
+                        margin: 0 auto;
+                        margin-top: 30px!important;
+                        margin-bottom: 30px!important;
+                    }
+
+                 }
