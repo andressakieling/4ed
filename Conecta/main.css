@@ -285,7 +285,7 @@
             width: 500px;
         }
 
-             #beneficios{
+            .sistema-ensino h2{
                 font-family: Lato;
                 color: white;
                 
@@ -326,14 +326,14 @@
                 .acompanhamento-pedagogico p{
                 font-family: 'Lato';
                 color: white;
-                font-size: 12px;
+                font-size: 10px;
                 }
                 .acompanhamento-pedagogico a{
                     text-decoration: none;
                     font-family: 'Lato';
                     color: white;
                     margin-top: 15px;
-                    font-size: 12px;
+                    font-size: 10px;
                     }
 
                 .acompanhamento-pedagogico img{
@@ -369,7 +369,7 @@
                 .plano-de-estudo p{
                 font-family: 'Lato';
                 color: white;
-                font-size: 12px;
+                font-size: 10px;
                 }
                
                 .plano-de-estudo a{
@@ -378,7 +378,7 @@
                 color: white;
                 text-decoration: none;
                 margin: 15px;
-                font-size: 12px;
+                font-size: 10px;
                 }
                 
                 .acompanhe-seu-desempenho{
@@ -408,7 +408,7 @@
                 .acompanhe-seu-desempenho p{
                 font-family: 'Lato';
                  color: white;
-                 font-size: 12px;
+                 font-size: 10px;
                 }
                 .acompanhe-seu-desempenho a{
     
@@ -416,7 +416,7 @@
                 color: white;
                 text-decoration: none;
                 margin: 15px;
-                font-size: 12px;
+                font-size: 10px;
                 }
                
                 .plantao-online{                    
@@ -456,7 +456,7 @@
                 color: white;
                 text-decoration: none;
                 margin: 15px;
-                font-size: 12px;
+                font-size: 10px;
                 }
 
                 .simulados{
@@ -489,7 +489,7 @@
     
                 font-family: 'Lato';
                 color: white;
-                font-size: 12px;
+                font-size: 10px;
                 }
                 .simulados a{
     
@@ -497,7 +497,7 @@
                 color: white;
                 text-decoration: none;
                 margin: 15px;
-                font-size: 12px;
+                font-size: 10px;
                 }
                       
                 .owl-nav{
@@ -538,8 +538,9 @@
                  @media (max-width: 480px) {
 
                     .header-container {
-                        width: 90%px;
+                        width: 90%;
                         justify-content: center;
+
                      }
                     .header-logo menu{
                         display: none;
@@ -551,8 +552,12 @@
                     .menu-infos {
                         display: flex;
                         flex-direction: column;
+                        text-align: center;
                     }
 
+                    .menu {
+                        display: none;
+                    }
                     .infos-gerais{
 
                         width: 80%;
@@ -580,4 +585,97 @@
                         margin-bottom: 30px!important;
                     }
 
+                    .imagem {
+                    
+                        display: none;
+
+                    }
+                    .container-especialistas {
+                        flex-direction: column;
+
+                    }
+                    .boxtexto{
+                        top: 38%;
+                        left: 68px;
+
+                    }
+
+                    .texto-especialistas{
+                        text-align: center;
+                        margin: 40px;
+                        width: 80%;
+                        padding: 0px;
+                    }
+
+                    .texto-ph {
+
+                    width: 90%;
+                    margin: 0px 40px;
+                    }
+
+                    .imagem-ph{
+                        width: 90%;
+                        top: -218px;
+                    }
+
+                    .imagem-ph img {
+                        width: 300px;
+                    }
+
+                    .container-ph{
+                        width: 100%;
+                        height: 230px;
+                    }
+
+                    .container-especialistas {
+                        width: 100%;
+                        justify-content: center;
+                    align-items: center;
+                    margin-top: 30px;
+                    margin-bottom: 110px;
+
+
+                    }
+                    .sistema-ensino{
+                    
+                        margin-bottom: 50px;
+
+                    }
+
+                    .container-beneficios{
+
+                        width: 100%;
+                    }
+
+                    .container-img-especialistas {
+
+                        width: 80%;
+                        overflow: hidden;
+                    }
+                    
+                    .acompanhamento-pedagogico {
+                        width: 70%;
+                        margin: 0 auto;
+                    }
+
+                    .plano-de-estudo {
+                        width: 70%;
+                        margin: 0 auto;
+                    }
+
+                    .acompanhe-seu-desempenho {
+                        width: 70%;
+                        margin: 0 auto;
+                    }
+
+                    .plantao-online {
+                        width: 70%;
+                        margin: 0 auto;
+
+                    }
+
+                    .simulados {
+                        width: 70%;
+                        margin: 0 auto;
+                    }
                  }

@@ -5,7 +5,9 @@ $('.owl-carousel').owlCarousel({
     nav:true,
     responsive:{
         0:{
-            items:1
+            items:1,
+            center: true,
+            margin: -90
         },
         600:{
             items:3
